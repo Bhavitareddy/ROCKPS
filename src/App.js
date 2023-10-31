@@ -1,5 +1,5 @@
 import './App.css'
-import GamePlay from './styledComponents'
+import GamePlay from './components/GamePlay'
 
 const choicesList = [
   {

@@ -1,6 +1,7 @@
 import {Component} from 'react'
 import Popup from 'react-js-popup'
 import {RiCloseLine} from 'react-icons/ri'
+import './index.css'
 
 import {
   GamePlayMainContainer,
@@ -84,8 +85,9 @@ class GamePlay extends Component {
     }
     this.setState({
       score: newScore,
-      isSHow: false,
+      isShow: false,
       newArray: [you[0], opponent],
+      text: result,
     })
   }
   render() {
